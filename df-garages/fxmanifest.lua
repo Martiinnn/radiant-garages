@@ -1,4 +1,4 @@
-shared_script '@WaveShield/resource/waveshield.lua' --this line was automatically written by WaveShield
+--shared_script '@WaveShield/resource/waveshield.lua' --My anticheat
 fx_version 'adamant'
 lua54 "yes"
 
