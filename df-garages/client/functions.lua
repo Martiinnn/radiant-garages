@@ -1,34 +1,6 @@
 local GarageData
 local GangData
 
-function GetData()
-	if GarageData == nil then
-		local ndata
-		local waiting = true
-		ESX.TriggerServerCallback('difamados:getOwnedCars', function(ownedCars)
-			ndata = ownedCars
-			waiting = false
-		end)
-		while waiting do Citizen.Wait(20) end
-		GarageData = ndata
-	end
-	return GarageData
-end
-
-function GetGangsData()
-	if GangData == nil then
-		local gdata
-		local waiting = true
-		ESX.TriggerServerCallback('difamados:getGangCars', function(gangCars)
-			gdata = gangCars
-			waiting = false
-		end)
-		while waiting do Citizen.Wait(20) end
-		GangData = gdata
-	end
-	return GangData
-end
-
 function openMenu()
 	ESX.TriggerServerCallback('difamados:getbanda', function(gang)
 		local bandacl = gang
@@ -113,6 +85,34 @@ function ListOwnedCarsMenu()
         options = elements,
     })
 	lib.showContext('owned_cars')
+end
+
+function GetData()
+	if GarageData == nil then
+		local ndata
+		local waiting = true
+		ESX.TriggerServerCallback('difamados:getOwnedCars', function(ownedCars)
+			ndata = ownedCars
+			waiting = false
+		end)
+		while waiting do Citizen.Wait(20) end
+		GarageData = ndata
+	end
+	return GarageData
+end
+
+function GetGangsData()
+	if GangData == nil then
+		local gdata
+		local waiting = true
+		ESX.TriggerServerCallback('difamados:getGangCars', function(gangCars)
+			gdata = gangCars
+			waiting = false
+		end)
+		while waiting do Citizen.Wait(20) end
+		GangData = gdata
+	end
+	return GangData
 end
 
 
