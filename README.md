@@ -13,7 +13,7 @@ Welcome to df-garages, a (very)simple and efficient garage system designed for P
 - [PolyZone](https://github.com/mkafrin/PolyZone): This project utilizes PolyZone for smooth garage locations setup.
 - [OX_LIB](https://github.com/overextended/ox_lib): is included as a dependency for extended functionalities.
 - [MySQL / OXMYSQL](https://github.com/overextended/oxmysql):
-- [RODA-GANGS-CREATOR](https://forum.cfx.re/t/free-roda-gangs-esx/4847395): This is my script for gang vehicles. You can easily change the fetch function to work with your preferred gang script.
+- [RODA-GANGS-CREATOR](https://forum.cfx.re/t/free-roda-gangs-esx/4847395): This is my script for gang vehicles. You can easily change the fetch and get gang function to work with your preferred gang script.
 
 👥 **Visit our servers**
 
