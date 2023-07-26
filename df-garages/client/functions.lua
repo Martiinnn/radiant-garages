@@ -116,6 +116,6 @@ function GetGangsData()
 	return GangData
 end
 
-
+-- exports if u want to use it
 exports("GetData", GetData)
 exports("GetGangVeh", GetGangsData)
