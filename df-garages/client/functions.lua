@@ -73,6 +73,7 @@ function ListOwnedCarsMenu()
 					ESX.Game.SpawnVehicle(hashVehicule, GetEntityCoords(ped), GetEntityHeading(ped), function(callback_vehicle)
 						SetVehRadioStation(callback_vehicle, "ON")
 						TaskWarpPedIntoVehicle(GetPlayerPed(-1), callback_vehicle, -1)
+                                                SetVehicleNumberPlateText(callback_vehicle, plate)
 					end)
 				end
 			})
