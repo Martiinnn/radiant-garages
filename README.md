@@ -17,10 +17,10 @@ Welcome to df-garages, a (very)simple and efficient garage system designed for P
 
 👥 **Visit our servers**
 
-**Difamados PVP**
+**Difamados PVP** (No longer available)
 [![Server 1](https://i.imgur.com/N0ycyPu.png)](https://discord.gg/difamadospvp)
 
-**Difamados RP**
+**Difamados RP** (No longer available)
 [![Server 2](https://i.imgur.com/E7ITKb8.png)](https://discord.gg/difamadosrp)
 
 ## Credits
