@@ -1,6 +1,6 @@
-# df-garages - 🚗💨 Simple Garage System for PVP/Gang Wars/Academy Servers
+# radiant-garages - 🚗💨 Simple Garage System for PVP/Gang Wars/Academy Servers
 
-Welcome to df-garages, a (very)simple and efficient garage system designed for PVP, Gang Wars, and Academy servers!
+Welcome to radiant-garages, a (very)simple and efficient garage system designed for PVP, Gang Wars, and Academy servers!
 
 🏢 **Polyzone for the Garage Locations**: Enjoy seamless integration with PolyZone, making garage locations a breeze to set up and manage.
 
