@@ -17,6 +17,8 @@ Welcome to radiant-garages, a (very)simple and efficient garage system designed 
 
 👥 **Visit our servers**
 
+**https://discord.gg/radiantpvp**
+
 **Difamados PVP** (No longer available)
 [![Server 1](https://i.imgur.com/N0ycyPu.png)](https://discord.gg/difamadospvp)
 
